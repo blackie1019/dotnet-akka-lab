@@ -1,13 +1,16 @@
 # dotnet-akka-lab
 Code Lab for Reactive Programming with Akka.NET and .NET Core
 
-[Slide]()
+[Download slide (TBD)]()
 
-- :black_square_button: 
-- :black_square_button: 
-- :black_square_button: Akka.Cluster
-- :black_square_button: Akka.NET & ASP.NET Core
-- :black_square_button: 
+Live course will open on 9/29 [Study4.TW .NET Conf 2018 - 使用 Akka.NET
+建立響應式應用程式](http://study4.tw/Activity/Details/20)
+
+*Agenda*
+- :bicyclist: Reactive Manifesto & Architecture 
+- :bullettrain_front: Akka.NET & .NET Core
+- :rocket: Put it into REAL : Integrating React & SignalR
+
 
 ## :white_check_mark: lab01 - HelloWorld ##
 
