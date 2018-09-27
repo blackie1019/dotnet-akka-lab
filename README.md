@@ -78,7 +78,7 @@ This is an example to demo Routers of Akka.NET
 
 [Project Link](/lab04)
 
-## :black_square_button: Lab05 Chat Room ##
+## :white_check_mark:  Lab05 Chat Room ##
 
 This is a sample to demo Akka.Remote
 
