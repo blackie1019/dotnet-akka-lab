@@ -16,11 +16,7 @@ namespace Demo.AkkaNet.HelloWorld
 
             untypedActor.Tell(new GreetingMessage("Hello untyped actor!"));
             typedActor.Tell(new GreetingMessage("Hello typed actor!"));
-            for (var i = 0; i < 100; i++)
-            {
-                typedActor.Tell("test"+i);
-            }
-
+            
             Console.Read();
             system.Terminate();
         }
