@@ -12,62 +12,124 @@ Live course will open on 9/29 [Study4.TW .NET Conf 2018 - 使用 Akka.NET
 - :rocket: Put it into REAL : Integrating React & SignalR
 
 
-## :white_check_mark: lab01 - HelloWorld ##
+## :white_check_mark: Lab01 - HelloWorld ##
 
 This is a basic Akka.NET sample for Tpye and Untype actor.
+
+### Demo Features ###
+
+- Akka.NET Hello world
+- UntypedActor and ReceiveActor(TypeActor)
+ 
+### Technical Stacks ###
 
 - .NET Core
 - Akka.NET
 
 [Project Link](/lab01)
 
-## :black_square_button: lab02 - Akka.Basic ##
-TBD
+## :black_square_button: Lab02 - Akka.NET Send Messages ##
+
+This is an example for Akka.NET send messages and actor life-cyle
+
+### Demo Features ###
+
+- Tell, Ask, Forward
+- Actor LifeCycle
+
+### Technical Stacks ###
 
 - .NET Core
 - Akka.NET
 
 [Project Link](/lab02)
 
-## :black_square_button: lab03 Akka.Routing ##
-TBD
+## :black_square_button: Lab03 - Akka.NET Actor & ActorSystem ##
+
+This is an example to demo the ActorSystem and Supervision on Akka.NET
+
+### Demo Features ###
+
+- ActorSystem path
+- Supervision
+
+### Technical Stacks ###
 
 - .NET Core
 - Akka.NET
 
 [Project Link](/lab03)
 
-## :black_square_button: lab04 Akka.Remote ##
-TBD
+## :black_square_button: Lab04 Routers of Akka.NET ##
+
+This is an example to demo Routers of Akka.NET
+
+### Demo Features ###
+
+- Round Robin
+- Random routing
+- Shortest Mailbox queue
+- Consistent Hashing 
+
+### Technical Stacks ###
+
+- .NET Core
+- Akka.NET
+
+[Project Link](/lab04)
+
+## :black_square_button: Lab05 Chat Room ##
+
+This is a sample to demo Akka.Remote
+
+### Demo Features ###
+
+- Akka.Remote
+- Akka Configuration(hocon file)
+
+### Technical Stacks ###
 
 - .NET Core
 - Akka.NET
 - Akka.Remote
 
-[Project Link](/lab04)
+[Project Link](/lab05)
 
-## :black_square_button: lab05 Akka.Cluster ##
+## :black_square_button: Lab06 Akka.Cluster ##
+
 TBD
+
+### Demo Features ###
 
 - .NET Core
 - Akka.NET
 - Akka.Remote
 - Akka.Cluster
 
-[Project Link](/lab05)
+[Project Link](/lab06)
 
-## :black_square_button: lab06 Akka.NET & ASP.NET Core ##
+## :black_square_button: Lab07 Akka.NET & ASP.NET Core ##
+
 TBD
+
+### Demo Features ###
+
+### Technical Stacks ###
 
 - .NET Core
 - Akka.NET
 - ASP.NET Core
 
-[Project Link](/lab06)
+[Project Link](/lab07)
 
-## :black_square_button: lab07 MiniSportsbook ##
+## :black_square_button: Lab08 MiniSportsbook ##
 
 TBD
+
+### Demo Features ###
+
+### Technical Stacks ###
+
 - .NET Core
 - Akka.NET
 - Akka.Remote
@@ -78,4 +140,4 @@ TBD
 - React & Redux
 - Bootstrap
 
-[Project Link](/lab07)
+[Project Link](/lab08)

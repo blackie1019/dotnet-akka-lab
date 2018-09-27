@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Chat.Client", "Demo.AkkaNet.Chat.Client\Demo.AkkaNet.Chat.Client.csproj", "{48701F44-F86D-48C0-8C6F-DA2DF6DAA800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Chat.Server", "Demo.AkkaNet.Chat.Server\Demo.AkkaNet.Chat.Server.csproj", "{6C546813-0D1F-44EE-A4D3-C90E39EE1160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Chat.Core", "Demo.AkkaNet.Chat.Core\Demo.AkkaNet.Chat.Core.csproj", "{2C30F708-B767-49D0-A25E-107D6555D653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48701F44-F86D-48C0-8C6F-DA2DF6DAA800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48701F44-F86D-48C0-8C6F-DA2DF6DAA800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48701F44-F86D-48C0-8C6F-DA2DF6DAA800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48701F44-F86D-48C0-8C6F-DA2DF6DAA800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C546813-0D1F-44EE-A4D3-C90E39EE1160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C546813-0D1F-44EE-A4D3-C90E39EE1160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C546813-0D1F-44EE-A4D3-C90E39EE1160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C546813-0D1F-44EE-A4D3-C90E39EE1160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C30F708-B767-49D0-A25E-107D6555D653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C30F708-B767-49D0-A25E-107D6555D653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C30F708-B767-49D0-A25E-107D6555D653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C30F708-B767-49D0-A25E-107D6555D653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

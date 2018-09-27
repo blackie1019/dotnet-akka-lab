@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka" Version="1.3.9" />
+      <PackageReference Include="Akka.Remote" Version="1.3.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="akka.net.hocon" />
+      <Content Include="akka.net.hocon">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Demo.AkkaNet.Chat.Core\Demo.AkkaNet.Chat.Core.csproj" />
+    </ItemGroup>
+
+</Project>
