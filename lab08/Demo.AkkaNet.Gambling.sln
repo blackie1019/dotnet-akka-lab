@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Gambling.ConsoleApp", "Demo.AkkaNet.Gambling.ConsoleApp\Demo.AkkaNet.Gambling.ConsoleApp.csproj", "{C5784F50-40D9-45C6-B51C-13C025B9AAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Gambling.WebApp", "Demo.AkkaNet.Gambling.WebApp\Demo.AkkaNet.Gambling.WebApp.csproj", "{CF0286D4-3A8B-4F28-9561-7D082102CA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Gambling.Core", "Demo.AkkaNet.Gambling.Core\Demo.AkkaNet.Gambling.Core.csproj", "{285D12CD-DC20-4631-BFD6-C1850752BDEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5784F50-40D9-45C6-B51C-13C025B9AAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5784F50-40D9-45C6-B51C-13C025B9AAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5784F50-40D9-45C6-B51C-13C025B9AAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5784F50-40D9-45C6-B51C-13C025B9AAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0286D4-3A8B-4F28-9561-7D082102CA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0286D4-3A8B-4F28-9561-7D082102CA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0286D4-3A8B-4F28-9561-7D082102CA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0286D4-3A8B-4F28-9561-7D082102CA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285D12CD-DC20-4631-BFD6-C1850752BDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285D12CD-DC20-4631-BFD6-C1850752BDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285D12CD-DC20-4631-BFD6-C1850752BDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285D12CD-DC20-4631-BFD6-C1850752BDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

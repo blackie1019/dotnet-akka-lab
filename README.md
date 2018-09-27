@@ -124,9 +124,9 @@ Simple ASP.NET Core with Akka.NET
 
 [Project Link](/lab07)
 
-## :black_square_button: Lab08 MiniSportsbook ##
+## :white_check_mark: Lab08 MiniSportsbook ##
 
-TBD
+An example to demo for to integate Akka.NET to push messaing from clinet console.
 
 ### Demo Features ###
 

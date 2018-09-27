@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka" Version="1.3.9" />
+      <PackageReference Include="Akka.Remote" Version="1.3.9" />
+      <PackageReference Include="Akka.Serialization.Hyperion" Version="1.3.9-beta68" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Demo.AkkaNet.Gambling.Core\Demo.AkkaNet.Gambling.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="akka.net.hocon" />
+      <Content Include="akka.net.hocon">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
