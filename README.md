@@ -108,11 +108,13 @@ TBD
 
 [Project Link](/lab06)
 
-## :black_square_button: Lab07 Akka.NET & ASP.NET Core ##
+## :white_check_mark: Lab07 Akka.NET & ASP.NET Core ##
 
-TBD
+Simple ASP.NET Core with Akka.NET
 
 ### Demo Features ###
+
+- Actor model integrate with ASP.NET Core
 
 ### Technical Stacks ###
 
