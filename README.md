@@ -130,6 +130,13 @@ An example to demo for to integate Akka.NET to push messaing from clinet console
 
 ### Demo Features ###
 
+- Client generate game data to Web from Akka.Remote
+- Use Akka.Scheduler to fire game data when target interval
+- ASP.NET Core build multiple Actors
+- ASP.NET Core use IHostedService play as console
+- Use SignalR push data to Client
+- Change Akka.Serializer from Json.NET to Hyperion
+
 ### Technical Stacks ###
 
 - .NET Core
