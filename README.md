@@ -15,7 +15,7 @@ Code Lab for Reactive Programming with Akka.NET and .NET Core
 
 This is a basic Akka.NET sample for Tpye and Untype actor.
 
-[Project Link]()
+[Project Link](/lab01)
 
 ## lab02 ##
 TBD
