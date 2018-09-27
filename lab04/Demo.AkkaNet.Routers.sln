@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AkkaNet.Routers", "Demo.AkkaNet.Routers\Demo.AkkaNet.Routers.csproj", "{805F39AA-A49B-4BA9-953F-EF43D4B4195A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805F39AA-A49B-4BA9-953F-EF43D4B4195A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805F39AA-A49B-4BA9-953F-EF43D4B4195A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805F39AA-A49B-4BA9-953F-EF43D4B4195A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805F39AA-A49B-4BA9-953F-EF43D4B4195A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
