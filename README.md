@@ -60,7 +60,7 @@ This is an example to demo the ActorSystem and Supervision on Akka.NET
 
 [Project Link](/lab03)
 
-## :black_square_button: Lab04 Routers of Akka.NET ##
+## :white_check_mark: Lab04 Routers of Akka.NET ##
 
 This is an example to demo Routers of Akka.NET
 
