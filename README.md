@@ -3,34 +3,76 @@ Code Lab for Reactive Programming with Akka.NET and .NET Core
 
 [Slide]()
 
-- :white_check_mark: HelloWorld
-- :black_square_button: Akka.Basic
-- :black_square_button: Akka.Routing
-- :black_square_button: Akka.Remote 
+- :black_square_button: 
+- :black_square_button: 
 - :black_square_button: Akka.Cluster
 - :black_square_button: Akka.NET & ASP.NET Core
-- :black_square_button: MiniGambling Site
+- :black_square_button: 
 
-## lab01 - HelloWorld ##
+## :white_check_mark: lab01 - HelloWorld ##
 
 This is a basic Akka.NET sample for Tpye and Untype actor.
 
+- .NET Core
+- Akka.NET
+
 [Project Link](/lab01)
 
-## lab02 ##
+## :black_square_button: lab02 - Akka.Basic ##
 TBD
 
-## lab03 ##
+- .NET Core
+- Akka.NET
+
+[Project Link](/lab02)
+
+## :black_square_button: lab03 Akka.Routing ##
 TBD
 
-## lab04 ##
+- .NET Core
+- Akka.NET
+
+[Project Link](/lab03)
+
+## :black_square_button: lab04 Akka.Remote ##
 TBD
 
-## lab05 ##
+- .NET Core
+- Akka.NET
+- Akka.Remote
+
+[Project Link](/lab04)
+
+## :black_square_button: lab05 Akka.Cluster ##
 TBD
 
-## lab06 ##
+- .NET Core
+- Akka.NET
+- Akka.Remote
+- Akka.Cluster
+
+[Project Link](/lab05)
+
+## :black_square_button: lab06 Akka.NET & ASP.NET Core ##
 TBD
 
-## lab07 ##
+- .NET Core
+- Akka.NET
+- ASP.NET Core
+
+[Project Link](/lab06)
+
+## :black_square_button: lab07 MiniSportsbook ##
+
 TBD
+- .NET Core
+- Akka.NET
+- Akka.Remote
+- Akka.Scheduler
+- Hyperion
+- ASP.NET Core
+- ASP.NET Core SignalR
+- React & Redux
+- Bootstrap
+
+[Project Link](/lab07)
