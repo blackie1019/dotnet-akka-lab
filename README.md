@@ -20,6 +20,7 @@ This is a basic Akka.NET sample for Tpye and Untype actor.
 
 - Akka.NET Hello world
 - UntypedActor and ReceiveActor(TypeActor)
+- Tell, Ask, Forward
  
 ### Technical Stacks ###
 
@@ -30,12 +31,11 @@ This is a basic Akka.NET sample for Tpye and Untype actor.
 
 ## :black_square_button: Lab02 - Akka.NET Send Messages ##
 
-This is an example for Akka.NET send messages and actor life-cyle
+This is an example for actor life-cyle
 
 ### Demo Features ###
-
-- Tell, Ask, Forward
 - Actor LifeCycle
+- Stop Actor
 
 ### Technical Stacks ###
 
