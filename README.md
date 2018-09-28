@@ -44,14 +44,15 @@ This is an example for actor life-cyle
 
 [Project Link](/lab02)
 
-## :black_square_button: Lab03 - MusicPlayer ##
+## :white_check_mark: Lab03 - MusicPlayer with Akka.NET ##
 
 This is an example to demo the ActorSystem and Supervision on Akka.NET
 
 ### Demo Features ###
 
-- Multiple Actor and Actor status
+- Multiple Actor and Actor's data
 - ActorSystem path
+- Actor behavior - Become()
 - Supervision
 
 ### Technical Stacks ###

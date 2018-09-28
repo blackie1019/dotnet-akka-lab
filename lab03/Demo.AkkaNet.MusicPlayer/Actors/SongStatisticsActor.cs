@@ -5,26 +5,26 @@ using Demo.AkkaNet.MusicPlayer.Messages;
 
 namespace Demo.AkkaNet.MusicPlayer.Actors
 {
-    public class SongPerformanceActor: ReceiveActor
+    public class SongStatisticsActor: ReceiveActor
     {
-        protected Dictionary<string, int> SongPeformanceCounter;
+        protected Dictionary<string, int> SongStatisticsCounter;
 
-        public SongPerformanceActor()
+        public SongStatisticsActor()
         {
-            SongPeformanceCounter = new Dictionary<string, int>();
+            SongStatisticsCounter = new Dictionary<string, int>();
             Receive<PlaySongMessage>(m => IncreaseSongCounter(m));
         }
 
         public void IncreaseSongCounter(PlaySongMessage m)
         {
             var counter = 1;
-            if (SongPeformanceCounter.ContainsKey(m.Song))
+            if (SongStatisticsCounter.ContainsKey(m.Song))
             {
-                counter = SongPeformanceCounter[m.Song]++;
+                counter = ++SongStatisticsCounter[m.Song];
             }
             else
             {
-                SongPeformanceCounter.Add(m.Song, counter);
+                SongStatisticsCounter.Add(m.Song, counter);
             }
            
             Console.ForegroundColor = ConsoleColor.Cyan;

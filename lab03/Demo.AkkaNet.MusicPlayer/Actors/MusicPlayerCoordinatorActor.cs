@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using Akka;
 using Akka.Actor;
+using Demo.AkkaNet.MusicPlayer.Exceptions;
 using Demo.AkkaNet.MusicPlayer.Messages;
 
 namespace Demo.AkkaNet.MusicPlayer.Actors
@@ -43,5 +45,23 @@ namespace Demo.AkkaNet.MusicPlayer.Actors
             return targetUserMusicPlayerActor;
         }
        
+        protected override SupervisorStrategy SupervisorStrategy()
+        {
+            return new OneForOneStrategy(e =>
+            {
+
+                if (e is SongNotAvailableException)
+                {
+                    return Directive.Restart;
+                }
+
+                if (e is MusicSystemCorruptedException)
+                {
+                    return Directive.Restart;
+                }
+
+                return Directive.Stop;
+            });
+        }
     }
 }

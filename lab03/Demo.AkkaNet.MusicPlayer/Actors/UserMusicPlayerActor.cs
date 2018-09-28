@@ -1,5 +1,6 @@
 using System;
 using Akka.Actor;
+using Demo.AkkaNet.MusicPlayer.Exceptions;
 using Demo.AkkaNet.MusicPlayer.Messages;
 
 namespace Demo.AkkaNet.MusicPlayer.Actors
@@ -22,7 +23,8 @@ namespace Demo.AkkaNet.MusicPlayer.Actors
 
         private void PlayingBehavior()
         {
-            Receive<UserPlaySongMessage>(m => Console.WriteLine($"User:{m.User} calling play, but cannot play. Currently playing '{CurrentSong} by User:{CurrentUser}'"));
+            Console.WriteLine($"User:{CurrentUser} player change to PlayingBehavior");
+            Receive<UserPlaySongMessage>(m => Console.WriteLine($"User:{m.User} calling play, but cannot play. Because another song:'{CurrentSong}' is playing..."));
             Receive<UserStopPlayingMessage>(m => StopPlaying(m.User));
         }
 
@@ -30,11 +32,24 @@ namespace Demo.AkkaNet.MusicPlayer.Actors
         {
             CurrentSong = song;
             CurrentUser = user;
+
+            CheckSongStatus(song);
+
+            Console.WriteLine($"User:{CurrentUser} currently playing '{CurrentSong}'");
             
-            Console.WriteLine($"Currently playing '{CurrentSong} by User:{CurrentUser}'");
-//            DisplayInformation();
             SendDataToStatistics(new PlaySongMessage(song));
             Become(PlayingBehavior);
+        }
+
+        private void CheckSongStatus(string song)
+        {
+            switch (song)
+            {
+                case "天地":
+                    throw new SongNotAvailableException("天地 is not available");
+                case "新鴛鴦蝴蝶夢":
+                    throw new MusicSystemCorruptedException("SystemCorrupted due to the song :新鴛鴦蝴蝶夢 is a sxxx....");
+            }
         }
 
         private void StopPlaying(string userName)
@@ -49,7 +64,7 @@ namespace Demo.AkkaNet.MusicPlayer.Actors
 
         private void SendDataToStatistics(PlaySongMessage msg)
         {
-            var statsActor = Context.ActorSelection("../../statistics"); 
+            var statsActor = Context.ActorSelection("../../statistics"); //Absolute path: akka://my-first-akka/user/statistics
             statsActor.Tell(msg);
         }
        
