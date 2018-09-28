@@ -126,7 +126,7 @@ Simple ASP.NET Core with Akka.NET
 
 ## :white_check_mark: Lab08 MiniSportsbook ##
 
-An example to demo for to integate Akka.NET to push messaing from clinet console.
+An example to demo how to integate Akka.NET to push messaing from clinet console.
 
 ### Demo Features ###
 
