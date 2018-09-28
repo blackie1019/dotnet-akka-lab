@@ -29,13 +29,13 @@ This is a basic Akka.NET sample for Tpye and Untype actor.
 
 [Project Link](/lab01)
 
-## :black_square_button: Lab02 - Akka.NET Send Messages ##
+## :white_check_mark: Lab02 - Akka.NET MessageDelivery ##
 
 This is an example for actor life-cyle
 
 ### Demo Features ###
 - Actor LifeCycle
-- Stop Actor
+- Stop & GracefulStop Actor
 
 ### Technical Stacks ###
 
