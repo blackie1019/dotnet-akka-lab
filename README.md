@@ -95,11 +95,16 @@ This is a sample to demo Akka.Remote
 
 [Project Link](/lab05)
 
-## :black_square_button: Lab06 Akka.Cluster ##
+## :white_check_mark: Lab06 Akka.Cluster ##
 
-TBD
+Ａ demo to show how to setup Cluster.
 
 ### Demo Features ###
+
+- Actor.Cluster combine multiple Actor System
+- Load Actor System and cluster setting from configuration(hocon file) 
+
+### Technical Stacks ###
 
 - .NET Core
 - Akka.NET
