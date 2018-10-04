@@ -1,7 +1,7 @@
 # dotnet-akka-lab
 Code Lab for Reactive Programming with Akka.NET and .NET Core
 
-[Download slide (TBD)]()
+[Download slide](https://www.slideshare.net/chentientsai/reactive-application-with-akkanet-net-core)
 
 Live course will open on 9/29 [Study4.TW .NET Conf 2018 - 使用 Akka.NET
 建立響應式應用程式](http://study4.tw/Activity/Details/20)
